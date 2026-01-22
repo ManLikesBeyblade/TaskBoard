@@ -30,11 +30,12 @@ public class TaskList {
     public TaskList() {
         this.name = "";
         this.desc = "";
+        this.tasks = new ArrayList<Task>();
     }
 
 
     // METHODS
     public void addTask(Task task) { tasks.add(task); }
-
+    public void removeTask(Task task) { tasks.remove(task); }
 
 } // END OF CLASS

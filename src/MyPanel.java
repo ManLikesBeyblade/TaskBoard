@@ -1,8 +1,9 @@
 import javax.swing.*;
 import java.awt.event.*;
-public class MyPanel {
 
-    public class MyPanel extends JPanel {
+public class MyPanel extends JPanel {
+
+
         JLabel myLabel; //a text label
         JTextField myTextField;
         JButton myButton;
@@ -21,14 +22,16 @@ public class MyPanel {
             myButton.addActionListener(this); //associate an event with button
             add(myButton);
 
-            //methods: implement interface method for actionListener
-            void actionPerformed(ActionEvent event){
-                if (event.getSource() == myButton) {
-                    System.out.println("d");
-                }
-            }
+
         }
+
+    //methods: implement interface method for actionListener
+    void actionPerformed(ActionEvent event) {
+        if (event.getSource() == myButton) {
+            System.out.println("d");
+        }
+    }
 
 
     }//endclass
-}
+

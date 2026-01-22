@@ -30,11 +30,12 @@ public class Board {
     public Board() {
         this.name = "";
         this.desc = "";
+        this.taskLists = new ArrayList<TaskList>();
     }
 
 
     // METHODS
     public void addTaskList(TaskList taskList) { taskLists.add(taskList); }
-
+    public void removeTaskList(TaskList taskList) { taskLists.remove(taskList); }
 
 } // END OF CLASS
