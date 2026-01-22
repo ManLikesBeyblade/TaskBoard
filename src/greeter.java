@@ -22,7 +22,7 @@ public class greeter {
      * That public class must be the same as the file name (e.g. public class Greeter mimics
      * the name of the file - Greeter.java)
      */
-    class GreeterPanel extends JPanel implements ActionListener {
+    static class GreeterPanel extends JPanel implements ActionListener {
         JLabel outLabel;
         JTextField inField;
         JLabel inFieldLabel;
