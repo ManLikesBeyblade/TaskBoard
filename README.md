@@ -15,6 +15,7 @@
 - Board
   - String name
   - ArrayList<List> lists
+  - ArrayList<User> editors
  
 - User
   - string username
