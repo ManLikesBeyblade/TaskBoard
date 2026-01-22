@@ -7,6 +7,7 @@
 
 ### Classes
 - Task
+-   String name, desc
 - Category
 - Board
 
