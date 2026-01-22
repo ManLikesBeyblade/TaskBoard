@@ -16,8 +16,8 @@
   - ArrayList<Task> tasks
 - Board
   - String name
-  - ArrayList<List> lists
-  - ArrayList<User> editors ?
+  - ArrayList(List) lists
+  - ArrayList(User) editors ?
  
 - User ?
   - string username
