@@ -28,14 +28,16 @@ class button {
         // Button 3 created
         // Cancel button
         Button b3 = new Button("Cancel");
-        b3.setBounds(400, 400, 80, 50);
+        b3.setBounds(400, 420, 80, 50);
         b3.addActionListener(e -> f.dispose());
         f.add(b3);
 
         f.setPreferredSize(new Dimension(500,500));
         f.setLayout(null);
         f.setVisible(true);
-        f.setBackground(new Color(100,100,100));
+        f.setResizable(false);
+        f.setMinimumSize(new Dimension(500,500));
+        f.setBackground(new Color(200,255,255));
     }
 
     public static void main(String[] args) { new button(); }
