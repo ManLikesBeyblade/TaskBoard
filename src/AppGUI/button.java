@@ -14,6 +14,7 @@ class button {
         // OK button
         Button b1 = new Button("OK");
         b1.setBounds(100, 50, 50, 50);
+        b1.addActionListener(e -> System.out.println("Button Clicked!"));
         f.add(b1);
 
         // Button 2 created
