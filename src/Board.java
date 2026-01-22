@@ -1,11 +1,10 @@
-import java.util.Date;
+import java.util.ArrayList;
 
-public class Task {
+public class Board {
     // FIELDS
     private String name;
     private String desc;
-    private Date dueDate;
-    private boolean completed;
+    private ArrayList<TaskList> taskLists;
 
 
     // GETTERS & SETTERS
@@ -23,29 +22,19 @@ public class Task {
         this.desc = desc;
     }
 
-    public Date getDueDate() {
-        return dueDate;
-    }
-    public void setDueDate(Date dueDate) {
-        this.dueDate = dueDate;
-    }
-
-    public boolean getCompleted() {
-        return completed;
-    }
-    public void setCompleted(boolean completed) {
-        this.completed = completed;
-    }
+    public ArrayList<TaskList> getTaskLists() { return taskLists; }
+    public void setTasks(ArrayList<TaskList> taskLists) { this.taskLists = taskLists;}
 
 
     // CONSTRUCTORS
-    public Task() {
+    public Board() {
         this.name = "";
         this.desc = "";
     }
 
 
     // METHODS
+    public void addTaskList(TaskList taskList) { taskLists.add(taskList); }
 
 
 } // END OF CLASS

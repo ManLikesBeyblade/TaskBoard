@@ -11,7 +11,7 @@
   - String name, description
   - Boolean taskCompleted
   - DateTime dueDate
-- List
+- taskList
   - String name, description
   - ArrayList<Task> tasks
 - Board
