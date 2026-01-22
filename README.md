@@ -21,5 +21,3 @@
  
 - User ?
   - string username
-
-https://code-with-me.global.jetbrains.com/M00czrriVqste1qHcc19mA
