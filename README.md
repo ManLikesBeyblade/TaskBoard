@@ -2,17 +2,17 @@
 
 ### Ideas
 
-- Basically trello
+- Basically just trello
 - Users can create boards with lists that contain tasks; tasks can be moved between lists
-- 
 
 ### Classes
 - Task
-  - String name, description
-  - Boolean taskCompleted
+  - String name, desc
+  - Boolean completed
   - DateTime dueDate
+  - String[] labels
 - taskList
-  - String name, description
+  - String name, desc
   - ArrayList<Task> tasks
 - Board
   - String name
