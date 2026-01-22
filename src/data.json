@@ -1,0 +1,22 @@
+{
+  "board_name": "my_board",
+  "list1": {
+    "list_name": "spongebob list",
+    "number_of_tasks": 2,
+    "task1": {
+      "task_name": "task1",
+      "time": "datetime",
+      "text": "lorem ipusm dolor sit amet",
+      "priority": "High",
+      "is_complete": true
+    },
+    "task2": {
+      "task_name": "task2",
+      "date": "22/01/2026",
+      "time": "13:27",
+      "text": "the quick brown fox",
+      "priority": null,
+      "is_complete": false
+    }
+  }
+}
