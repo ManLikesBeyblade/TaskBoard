@@ -4,6 +4,7 @@
 
 - Basically just trello
 - Users can create boards with lists that contain tasks; tasks can be moved between lists
+- Add a function which allows tasks to be filtered by label
 
 ### Classes
 - Task
