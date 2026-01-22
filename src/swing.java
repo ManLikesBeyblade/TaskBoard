@@ -1,7 +1,7 @@
 import javax.swing.*;
 public class swing {
     public class Main {
-        static void main(String[] args) {
+        static void swing(String[] args) {
             // create an instance of JFrame - a swing window
             JFrame frame = new JFrame("hello, world");
             frame.setSize(300, 200);
