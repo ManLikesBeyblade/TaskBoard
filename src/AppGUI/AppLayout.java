@@ -13,4 +13,5 @@ public class AppLayout {
         frame.pack();
         frame.setVisible(true);
     }
+    //public static void main(String a[]) {new AppLayout()};
 }

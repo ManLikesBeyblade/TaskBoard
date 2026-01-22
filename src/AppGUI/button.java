@@ -2,6 +2,7 @@ package AppGUI;
 
 // Java program to create three buttons
 // with caption OK, SUBMIT, CANCEL
+import javax.swing.*;
 import java.awt.*;
 
 
@@ -13,27 +14,32 @@ class button {
         // Button 1 created
         // OK button
         Button b1 = new Button("OK");
-        b1.setBounds(100, 50, 50, 50);
+        b1.setBounds(100, 50, 80, 50);
         b1.addActionListener(e -> System.out.println("Button Clicked!"));
         f.add(b1);
 
         // Button 2 created
         // Submit button
-        Button b2 = new Button("SUBMIT");
-        b2.setBounds(100, 101, 50, 50);
+        Button b2 = new Button("Submit");
+        b2.setBounds(100, 101, 80, 50);
+        b2.addActionListener(e -> System.out.println("Button 2 Clicked!"));
         f.add(b2);
 
         // Button 3 created
         // Cancel button
-        Button b3 = new Button("CANCEL");
-        b3.setBounds(100, 150, 80, 50);
+        Button b3 = new Button("Cancel");
+        b3.setBounds(400, 420, 80, 50);
+        b3.addActionListener(e -> f.dispose());
         f.add(b3);
 
-        f.setSize(500, 500);
+        f.setPreferredSize(new Dimension(500,500));
         f.setLayout(null);
         f.setVisible(true);
+        f.setResizable(false);
+        f.setMinimumSize(new Dimension(500,500));
+        f.setBackground(new Color(200,255,255));
     }
 
-    public static void main(String a[]) { new button(); }
+    public static void main(String[] args) { new button(); }
 }
 
