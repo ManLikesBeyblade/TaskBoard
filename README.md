@@ -9,15 +9,16 @@
 - Task
   - String name, description
   - Boolean taskCompleted
+  - DateTime dueDate
 - List
   - String name, description
   - ArrayList<Task> tasks
 - Board
   - String name
   - ArrayList<List> lists
-  - ArrayList<User> editors
+  - ArrayList<User> editors ?
  
-- User
+- User ?
   - string username
 
 https://code-with-me.global.jetbrains.com/M00czrriVqste1qHcc19mA
