@@ -15,7 +15,7 @@ public class greeter {
 
             f.setVisible(true);
         }
-    }
+    } //test
 
     /*
      * Multiple classes can be in a single .java file - as long as only one is public.
