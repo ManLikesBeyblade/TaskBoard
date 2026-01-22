@@ -8,6 +8,7 @@
 ### Classes
 - Task
   - String name, description
+  - Boolean taskCompleted
 - List
   - String name, description
   - ArrayList<Task> tasks
