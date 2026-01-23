@@ -22,3 +22,6 @@
 
 ### Example trello board
 https://trello.com/b/8ykctyqk/where-to-next-travel-inspiration-board
+
+### java json download
+https://github.com/stleary/JSON-java?tab=readme-ov-file
